@@ -1,0 +1,41 @@
+### DEV FILES ###
+/src/config_files/
+/src/main.*
+!/src/*.go
+/src/go.sum
+/src/*.ex
+/src/*.sw
+
+### Go ###
+# Binaries for programs and plugins
+*.so
+*.amd64
+*.armv7
+
+# Go paths
+/go/
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+
+# Auto-generated tag files
+tags
+
+# Persistent undo
+[._]*.un~
+
+# Coc configuration directory
+.vim
